@@ -1,6 +1,6 @@
-# Changelog
+##Changelog
 
-## 1.1
+##!1.1
 
 ### Update 11 Sep '19:
 - Split code up into several classes under `/src`
@@ -51,3 +51,4 @@
 
 - Fixed bug: underlining would start but never end. Now it does.
 - Feature request: images are now filtered out of the output. 
+ 
