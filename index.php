@@ -1,5 +1,5 @@
 <?php
-    error_reporting(-1);
+#   error_reporting(-1);
     ini_set('display_errors', 'on');
     require_once __DIR__ . '/vendor/autoload.php';
 
@@ -13,4 +13,4 @@
     $r = $formatter->Format($document);
     file_put_contents('rtf.html', $r);
     echo $r;
-?>
+?> 
